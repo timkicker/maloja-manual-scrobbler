@@ -13,7 +13,7 @@ Maloja Manual Scrobbler is a Python script for manually scrobbling albums to you
 1. **Clone the Repository:**
    
    ```bash
-   git clone https://github.com/your_username/maloja-manual-scrobbler.git
+   git clone https://github.com/timkicker/maloja-manual-scrobbler.git
    ```
    
 2. **Install Dependencies:**

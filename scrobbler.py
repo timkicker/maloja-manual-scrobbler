@@ -8,9 +8,9 @@ import discogs_client
 version = 1.0
 
 # SET YOUR KEYS HERE
-DISCOGS_TOKEN="YOUR KEY"
-MALOJA_URL="INSTANCE"
-MALOJA_API_KEY="YOUR KEY"
+DISCOGS_TOKEN="TOKEN"
+MALOJA_URL="https://MALOJAINSTANCE.COM"
+MALOJA_API_KEY="KEY"
 
 
 # color codes for printing in terminal
@@ -127,6 +127,7 @@ for track in release.tracklist:
     scrobble_data = {
         "artists": [artist.name for artist in release.artists],
         "title": track.title,
+        "album": release.title,
         "duration": total_seconds,
         "time": int(start_time.timestamp())
     }
